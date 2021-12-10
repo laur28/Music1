@@ -1,0 +1,81 @@
+html,body{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto; 
+    font-family: Garamond, serif;
+}
+html{
+    background: url('image-from-rawpixel-id-5858901-jpeg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+}
+
+
+#title{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    position: center;
+    text-shadow: 4px 3px 0px #545548;
+}
+
+
+p{
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center ;
+    color: white;
+    text-transform: capitalize;
+       
+}
+
+ a:link, a:visited , a:active  {
+    text-decoration: none;
+    
+ }
+
+ a{
+     color: rgb(241, 229, 52);
+     font-size: 40px;
+ }
+
+h1{
+    position: fixed;
+    top:20%;
+    left:9%;
+    font-size: 40px;
+    
+    
+}
+a:hover{
+    
+    text-decoration:underline;
+}
+
+#artist{
+
+    font-size: 20px;
+
+}
+
+#inputfield{
+    border: 3px solid black;
+    background-color: rgb(247, 242, 197); 
+    width: 70%;
+    height: 40px;
+}
+
+placeholder{
+    color: black;
+}
+
+#searchBtn{
+    background-color: rgb(199, 196, 28);
+    border: 3px solid black;
+    width: 20%;
+    height: 48px;
+}
+
